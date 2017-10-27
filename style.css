@@ -1,0 +1,81 @@
+/* CSS Document */
+html{
+  overflow-x:hidden;
+  padding: 0;
+  margin: 0;
+}
+body{
+
+   background-repeat:repeat;
+   /*background-color:rgba(0,0,0,0.1);*/
+   overflow-x:hidden;
+   padding: 0;
+   margin: 0;
+ }
+ .header {
+   position: fixed;
+   height: 100px;
+   width: 100%;
+   left: 0px;
+   top: 0px;
+   z-index:988;
+ }
+.menu {
+  position: absolute;
+  height: 45px;
+  width: 1250px;
+  left: 50%;
+  margin-left:-625px;
+  top: 15px;
+}
+.nav{
+  position: absolute;
+  width: 1090px;
+  height: 45px;
+  top: 0px;
+  left: 50%;
+  margin-left: -545px;
+}
+.nav a:hover {
+  background-color:rgba(0,0,51,0.3);
+}
+.nav a {
+  text-decoration:none;
+  background-color:rgba(0,0,0,0.1);
+  color: rgba(0,0,0,1);
+  padding: 10px;
+  border-color:rgba(255,255,255,1);
+  border:solid;
+  border-width:thin;
+}
+.nav li{display:inline;
+  list-style-type:none;
+  font-family: 'Arimo', sans-serif;
+  font-weight:bold;
+  font-size:25px;}
+
+ .cub{
+   position: absolute;
+   height: 900px;
+   width: 900px;
+   position: absolute;
+   top: 100px;
+   background-color:rgba(0,0,0,0.1);
+   left:0px;
+
+ }
+ .matrix{
+   position: absolute;
+   height: 300px;
+   width: 600px;
+   top: 140px;
+   background-color:rgba(0,0,0,0.6);
+   left:0px;
+ }
+ .calculator{
+   position: absolute;
+   height: 500px;
+   width: 500px;
+   top: 100px;
+   background-color:rgba(0,0,0,0.3);
+ }

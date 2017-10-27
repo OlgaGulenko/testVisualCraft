@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+      <div class="menu">
+          <div class="nav">
+            <li><a href="matrix.html">Matrix</a></li>
+            <li><a href="cub.html">CUB</a></li>
+            <li><a href="index.html">Calculator</a></li>
+          </div>
+      </div>
+      <div class="calculator">
+            <script src="index.js"></script>
+        <div>
+            <input id="displayInput" onchange="displayChange(this.value)">
+            <div>
+                <label>Result: </label>
+                <p id="resLine"></p>
+            </div>
+        </div>
+        <h3>
+        <a onclick="push(1)">1</a>
+        <a onclick="push(2)">2</a>
+        <a onclick="push(3)">3</a>
+        <a onclick="push(4)">4</a>
+        <a onclick="push(5)">5</a><br/>
+        <a onclick="push(6)">6</a>
+        <a onclick="push(7)">7</a>
+        <a onclick="push(8)">8</a>
+        <a onclick="push(9)">9</a>
+        <a onclick="push(0)">0</a><br/>
+        <a onclick="push('+')">+</a>
+        <a onclick="push('-')">-</a>
+        <a onclick="push('/')">/</a>
+        <a onclick="push('*')">*</a>
+        <a onclick="calc()">=</a>
+      </h3>
+        <div>
+            <div id="historyBlock">
+
+            </div>
+        </div>
+      </div>
+    </body>
+</html>
