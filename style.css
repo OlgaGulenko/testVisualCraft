@@ -87,3 +87,7 @@ body{
     color: red;
     background-color:rgba(0, 0, 0, 0.5);
 }
+.calcinput{
+  height: 20px;
+  width: 400px;
+}

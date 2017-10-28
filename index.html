@@ -15,11 +15,8 @@
       <div class="calculator">
             <script src="index.js"></script>
         <div>
-            <input id="displayInput" onchange="displayChange(this.value)">
-            <div>
-                <label>Result: </label>
-                <p id="resLine"></p>
-            </div>
+            <input id="displayInput" placeholder="Enter operation" class = "calcinput" onchange="displayChange(this.value)">
+
         </div>
         <h3>
           <a onclick="push(1)" class="cross">1</a>
@@ -39,9 +36,12 @@
           <a onclick="calc()" class="cross">=</a>
         </h3>
         <div>
-            <div id="historyBlock">
-
-            </div>
+            <label>Result: </label>
+            <p id="resLine"></p>
+        </div>
+        <div>
+            <span>Previous operations:</span>
+            <div id="historyBlock"></div>
         </div>
       </div>
     </body>
