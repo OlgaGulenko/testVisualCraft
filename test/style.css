@@ -79,11 +79,3 @@ body{
    top: 100px;
    background-color:rgba(0,0,0,0.3);
  }
- .cross {
-   cursor: pointer;
-   padding:10px;
-}
- .cross:hover {
-    color: red;
-    background-color:rgba(0, 0, 0, 0.5);
-}
